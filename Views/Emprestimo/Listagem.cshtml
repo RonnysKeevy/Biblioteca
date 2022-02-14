@@ -33,8 +33,6 @@
                 <th></th>
                 </tr>
             </thead>
-            @if (Model.Count > 0)
-            {
             <tbody>
                 @foreach(Emprestimo e in Model)
                 {
@@ -49,7 +47,6 @@
                 </tr>
                 }
             </tbody>
-            } else { <p> Nenhum registro encontrado</p>}
         </table>
     </div>
 </div>
